@@ -4,7 +4,7 @@
   "description": "Checks installed versions in package.json against the latest available versions",
   "main": "index.js",
   "bin": {
-    "package-version-check": "./index.js"
+    "pvc": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
