@@ -1,0 +1,18 @@
+{
+  "name": "package-version-check",
+  "version": "1.0.0",
+  "description": "Checks installed versions in package.json against the latest available versions",
+  "main": "index.js",
+  "bin": {
+    "package-version-check": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trevor Wright",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "npm-run": "^4.1.2"
+  }
+}
